@@ -296,7 +296,7 @@ def make_styles() -> dict[str, ParagraphStyle]:
             leftIndent=54,
             bulletIndent=40,
             bulletFontName=FONTS["regular"],
-            bulletFontSize=15,
+            bulletFontSize=11.4,
             firstLineIndent=0,
             spaceAfter=1,
         ),
