@@ -18,6 +18,7 @@ This project builds `resume.md` into a text-first PDF resume.
 ```bash
 python3 -m pip install -r requirements.txt
 make build
+make open
 make check
 ```
 
