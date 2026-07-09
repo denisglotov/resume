@@ -397,6 +397,7 @@ def build_pdf(source: Path, output: Path) -> None:
         author="Denis Glotov",
         subject="Senior Software Engineer resume",
     )
+    doc.allowSplitting = 0
     doc.build(build_story(blocks), canvasmaker=NumberedCanvas)
 
 
