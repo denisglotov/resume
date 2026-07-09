@@ -33,6 +33,7 @@ TOP_MARGIN = 53
 BOTTOM_MARGIN = 48
 CONTENT_WIDTH = PAGE_WIDTH - LEFT_MARGIN - RIGHT_MARGIN
 FOOTER_TEXT = "Denis Glotov - resume - page {page} of {total}"
+LINK_COLOR = "#2563eb"
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
@@ -118,8 +119,9 @@ def inline_markup(text: str) -> str:
         parts.append(convert_plain(text[cursor: match.start()]))
         label = convert_plain(match.group(1))
         url = html.escape(match.group(2), quote=True)
-        parts.append(f'<a href="{url}"><font color="#1155cc"><u>{
-                     label}</u></font></a>')
+        parts.append(
+            f'<a href="{url}"><font color="{LINK_COLOR}">{label}</font></a>'
+        )
         cursor = match.end()
     parts.append(convert_plain(text[cursor:]))
     return "".join(parts)
@@ -233,10 +235,10 @@ def make_styles() -> dict[str, ParagraphStyle]:
         "contact": ParagraphStyle(
             "Contact",
             parent=base,
-            fontSize=11.1,
-            leading=13,
+            fontSize=10.2,
+            leading=12,
             alignment=TA_CENTER,
-            spaceAfter=11,
+            spaceAfter=10,
         ),
         "summary": ParagraphStyle(
             "Summary",
