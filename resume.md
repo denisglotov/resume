@@ -8,9 +8,9 @@ Senior software engineer with a mathematics background and 25 years of experienc
 
 ## Skills
 
-C/C++, Assembler, Golang, Rust, Python, Nodejs, Java, Solidity, Bash
+Rust, zkVM, SP1, Solana, EVM, Cryptography, Distributed Systems, C/C++, Go, Python
 
-Algorithms, Bitcoin, Cryptography, Dot, Emacs, EVM, Solana, Web3, Zero-Knowledge
+Algorithms, Solidity, Bitcoin, Zero-Knowledge, Bash, Java, Node.js, Assembly, Web3
 
 ## Experience
 
