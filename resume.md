@@ -30,7 +30,7 @@ Principal Rust Engineer
 - Migrated Neon EVM Proxy and Solana Indexer from Python to Rust, optimized CPU performance through profiling, and validated functionality using OpenZeppelin, Uniswap, Aave, and Curve open-source test suites.
 - Prototyped zkVMs (Risc0, Succinct SP1) with on-chain verifiable proofs using Groth16 and PLONK schemas.
 
-**Skills:** Solana, Python, PostgreSQL, Rust, zkVM.
+**Skills:** Solana, Rust, Python, PostgreSQL, zkVM.
 
 ### Blowfish, remote | Aug 2023 - Aug 2024
 
@@ -39,7 +39,7 @@ Software engineer
 - Engineered the core of a Solana transaction simulator, extended a Solana node fork to enhance simulation compatibility, and built a robust integration testing environment.
 - Investigated malicious Solana programs, developed proof-of-concept exploits, and evaluated behavioral hypotheses for security analysis.
 
-**Skills:** Anchor, Solana, Rust, TypeScript, Grafana.
+**Skills:** Solana, Anchor, Rust, TypeScript, Grafana.
 
 ### EYWA Cross-chain Protocol, remote | Sep 2021 - Jan 2023
 
