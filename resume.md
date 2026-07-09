@@ -8,9 +8,9 @@ Senior software engineer with a mathematics background and 25 years of experienc
 
 ## Skills
 
-Rust, zkVM, SP1, Solana, EVM, Cryptography, Distributed Systems, C/C++, Go, Python
+Rust, C/C++, Go, Python, Solidity, Java, JavaScript/Node.js, Bash, Assembly
 
-Algorithms, Solidity, Bitcoin, Zero-Knowledge, Bash, Java, Node.js, Assembly, Web3
+Algorithms, zkVM, SP1, Solana, EVM, Cryptography, Zero-Knowledge Proofs, Bitcoin, Web3
 
 ## Experience
 
@@ -21,14 +21,14 @@ Software Engineer
 - Developed core backend components for the Delta Network validator node, including SP1 zkVM proof generation and verification for state transitions, Merkle/JMT storage abstractions, cryptographic schemas, and stress-testing workflows.
 - Built a remote SP1 proving pipeline with CUDA-backed proof generation and gRPC-based coordination, and benchmarked SP1 against Zisk to evaluate zkVM proving performance.
 
-**Skills:** BLS, CUDA, gRPC, LibP2P, RocksDB, Rust, zkVM.
+**Skills:** Async Rust, BLS, CUDA, gRPC, libp2p, RocksDB, zkVM.
 
 ### Neon Labs, remote | Oct 2024 - Jul 2025
 
 Principal Rust Engineer
 
 - Migrated Neon EVM Proxy and Solana Indexer from Python to Rust, optimized CPU performance through profiling, and validated functionality using OpenZeppelin, Uniswap, Aave, and Curve open-source test suites.
-- Prototyped zkVMs (Risc0, Succinct SP1) with on-chain verifiable proofs using Groth16 and PLONK schemas.
+- Prototyped zkVMs (RISC Zero, Succinct SP1) with on-chain verifiable proofs using Groth16 and PLONK schemas.
 
 **Skills:** Solana, Rust, Python, PostgreSQL, zkVM.
 
@@ -61,11 +61,11 @@ Software engineer
   - Created stress-testing frameworks and scripts to simulate multi-node P2P environments under various scenarios.
 - IBM Mainframe Code Modernization
   - Automated the conversion of assembler code to C for legacy IBM Mainframe systems.
-  - Built a z/Architecture assembler debugger to trace I/O behavior of third-party Asm/Cobol modules dynamically.
-  - Implemented a C library to emulate z/OS APIs on the z/Linux platform, enabling hybrid compatibility.
+  - Built a z/Architecture assembler debugger to trace I/O behavior of third-party Assembly/COBOL modules dynamically.
+  - Implemented a C library to emulate z/OS APIs on Linux on IBM Z, enabling hybrid compatibility.
   - Utilized LLVM KLEE to analyze all execution paths in converted C code for validation and test generation.
 
-**Skills:** Asm, C++ (GCC, C++11), Go, Python, Nodejs, Bash, Linux, MongoDB, Solidity, Elliptic curve cryptography.
+**Skills:** Assembly, C++, Go, Python, Node.js, Bash, Linux, MongoDB, Solidity, Elliptic curve cryptography.
 
 ### Mail.ru group Ok.ru social network, Moscow, Russia | Sep 2013 - Oct 2015
 
@@ -99,7 +99,7 @@ Software engineer
   - Developed the "My Location" feature (geolocation API emulation) via a COM-object agent and user-facing UI.
   - Created instant metric conversion features by leveraging Google Calculator's backend for real-time results.
 
-**Skills:** C++ (GCC, Clang, C++11, Address/Thread Sanitizers), Algorithms, MapReduce, Gtest, Python, Linux.
+**Skills:** C++ (GCC, Clang, C++11, Address/Thread Sanitizers), Algorithms, MapReduce, gTest, Python, Linux.
 
 ### RF Micro Devices Inc., WLAN department, Moscow, Russia | Aug 2000 - Aug 2005
 
@@ -109,7 +109,7 @@ Software engineer
 - Debugged, profiled, and validated the driver stack by passing Microsoft WHQL certification tests.
 - Contributed to real-time MAC firmware development for an ARM-based 802.11a/b/g PCIe wireless card, focusing on performance and protocol correctness.
 
-**Skills:** Asm, C/C++ (MSVC), Windows DDK, Compuware DriverStudio, SoftIce, Windbg, Multithreading.
+**Skills:** Assembly, C/C++ (MSVC), Windows DDK, Compuware DriverStudio, SoftIce, Windbg, Multithreading.
 
 ## Education
 
@@ -125,6 +125,6 @@ US Patent application [20130035926](https://patents.google.com/patent/US20130035
 
 ## Interests
 
-- Cryptography, Zero-Knowledge proofs, functional programming, writing elegant code.
+- Cryptography, zero-knowledge proofs, functional programming, writing elegant code.
 - System programming, kernel hacking, low-level optimizations, data races.
 - Multithreaded and distributed programming, lock-free synchronization algorithms.
