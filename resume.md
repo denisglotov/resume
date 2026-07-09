@@ -10,18 +10,27 @@ Software engineer with a mathematical background and 25 years of experience spec
 
 C/C++, Assembler, Golang, Rust, Python, Nodejs, Java, Solidity, Bash
 
-OOP, algorithms, cryptography, dot, Emacs, EVM, Solana, Web3, Zero-Knowledge
+Algorithms, Bitcoin, Cryptography, Dot, Emacs, EVM, Solana, Web3, Zero-Knowledge
 
 ## Experience
 
-### Neon Labs, remote | Oct 2024 - present
+### Repyh labs, remote | Sep 2025 - Jul 2026
+
+Software Engineer
+
+- Developed core backend components for the Delta Network validator node, including SP1 zkVM proof generation and verification for state transitions, Merkle/JMT storage abstractions, cryptographic schemas, and stress-testing workflows.
+- Built a remote SP1 proving pipeline with CUDA-backed proof generation and gRPC-based coordination, and benchmarked SP1 against Zisk to evaluate zkVM proving performance.
+
+**Skills:** BLS, CUDA, gRPC, LibP2P, RocksDB, Rust, zkVM.
+
+### Neon Labs, remote | Oct 2024 - Jul 2025
 
 Principal Rust Engineer
 
 - Migrated Neon EVM Proxy and Solana Indexer from Python to Rust, optimized CPU performance through profiling, and validated functionality using OpenZeppelin, Uniswap, Aave, and Curve open-source test suites.
 - Prototyped zkVMs (Risc0, Succinct SP1) with on-chain verifiable proofs using Groth16 and PLONK schemas.
 
-**Skills:** Solana, Rust, Python, PostgreSQL, zkVM.
+**Skills:** Solana, Python, PostgreSQL, Rust, zkVM.
 
 ### Blowfish, remote | Aug 2023 - Aug 2024
 
@@ -30,7 +39,7 @@ Software engineer
 - Engineered the core of a Solana transaction simulator, extended a Solana node fork to enhance simulation compatibility, and built a robust integration testing environment.
 - Investigated malicious Solana programs, developed proof-of-concept exploits, and evaluated behavioral hypotheses for security analysis.
 
-**Skills:** Solana, Anchor, Rust, TypeScript, Grafana.
+**Skills:** Anchor, Solana, Rust, TypeScript, Grafana.
 
 ### EYWA Cross-chain Protocol, remote | Sep 2021 - Jan 2023
 
@@ -40,6 +49,8 @@ Technical Lead
 - Developed smart contracts for BLS signature verification and Merkle tree authentication; tested, gas-optimized, documented, and successfully passed security audits.
 
 **Skills:** BLS threshold signatures, Merkle tree, Bloom filter, Byzantine, Go, Solidity, Prometheus, Grafana, Echidna.
+
+<!-- pagebreak -->
 
 ### Accenture, Riga, Latvia | Nov 2015 - Mar 2021
 
@@ -51,9 +62,6 @@ Software engineer
 - IBM Mainframe Code Modernization
   - Automated the conversion of assembler code to C for legacy IBM Mainframe systems.
   - Built a z/Architecture assembler debugger to trace I/O behavior of third-party Asm/Cobol modules dynamically.
-
-<!-- pagebreak -->
-
   - Implemented a C library to emulate z/OS APIs on the z/Linux platform, enabling hybrid compatibility.
   - Utilized LLVM KLEE to analyze all execution paths in converted C code for validation and test generation.
 
@@ -92,8 +100,6 @@ Software engineer
   - Created instant metric conversion features by leveraging Google Calculator's backend for real-time results.
 
 **Skills:** C++ (GCC, Clang, C++11, Address/Thread Sanitizers), Algorithms, MapReduce, Gtest, Python, Linux.
-
-<!-- pagebreak -->
 
 ### RF Micro Devices Inc., WLAN department, Moscow, Russia | Aug 2000 - Aug 2005
 
