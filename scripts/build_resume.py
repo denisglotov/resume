@@ -236,7 +236,7 @@ def make_styles() -> dict[str, ParagraphStyle]:
             fontSize=11.1,
             leading=13,
             alignment=TA_CENTER,
-            spaceAfter=19,
+            spaceAfter=11,
         ),
         "summary": ParagraphStyle(
             "Summary",
@@ -306,7 +306,7 @@ def make_styles() -> dict[str, ParagraphStyle]:
             fontSize=9.3,
             leading=10.9,
             spaceBefore=1,
-            spaceAfter=7.5,
+            spaceAfter=11,
         ),
     }
 
