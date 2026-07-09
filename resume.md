@@ -4,7 +4,7 @@ Senior Software Engineer - Riga, Latvia
 
 [denis@glotov.org](mailto:denis@glotov.org) ∙ [linkedin.com/in/denisglotov](https://linkedin.com/in/denisglotov) ∙ [github.com/denisglotov](https://github.com/denisglotov) ∙ [t.me/denisglotov](https://t.me/denisglotov)
 
-Software engineer with a mathematical background and 25 years of experience specializing in distributed systems, blockchain, and cryptography. Proficient in solving complex challenges.
+Senior software engineer with a mathematics background and 25 years of experience building distributed, performance-critical systems in Rust, C++, Go, and Python. Recent work focuses on zkVM proving, Solana/EVM infrastructure, validator nodes, and applied cryptography.
 
 ## Skills
 
