@@ -1,4 +1,12 @@
-# Resume Markdown Source
+# 👋 Denis Glotov resume
+
+## I am a software engineer
+
+I am a software engineer with a mathematical background and 25 years of experience in distributed systems, blockchain, and cryptography. I enjoy complex problems where correctness, performance, and clean abstractions all matter.
+
+I am especially interested in zero-knowledge proofs, functional programming, system programming, kernel-level debugging, low-level optimization, data races, and distributed systems. I care about writing elegant code that is practical to run and maintain.
+
+## Resume Markdown Source
 
 This project builds `resume.md` into a text-first PDF resume.
 
