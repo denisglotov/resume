@@ -36,6 +36,7 @@ def main(argv: list[str]) -> int:
         "output/pdf/denis-glotov-resume.pdf")
     reader = PdfReader(str(pdf_path))
     text = "\n".join(page.extract_text() or "" for page in reader.pages)
+    extractable_lines = [line for line in text.splitlines() if line.strip()]
     missing = [needle for needle in REQUIRED_TEXT if needle not in text]
     images = image_count(reader)
     controls = sorted({ch for ch in text if ord(ch)
@@ -43,6 +44,7 @@ def main(argv: list[str]) -> int:
 
     print(f"pages: {len(reader.pages)}")
     print(f"extractable characters: {len(text)}")
+    print(f"extractable lines: {len(extractable_lines)}")
     print(f"embedded images: {images}")
 
     if missing:
