@@ -1,12 +1,17 @@
 PYTHON ?= python3
 SOURCE := resume.md
 PDF := output/pdf/denis-glotov-resume.pdf
+FONT_FILES := \
+	assets/fonts/liberation-sans/LiberationSans-Regular.ttf \
+	assets/fonts/liberation-sans/LiberationSans-Bold.ttf \
+	assets/fonts/liberation-sans/LiberationSans-Italic.ttf \
+	assets/fonts/liberation-sans/LiberationSans-BoldItalic.ttf
 
 .PHONY: build check clean lint open
 
 build: $(PDF)
 
-$(PDF): $(SOURCE) scripts/build_resume.py
+$(PDF): $(SOURCE) scripts/build_resume.py $(FONT_FILES)
 	$(PYTHON) scripts/build_resume.py $(SOURCE) $(PDF)
 
 check: build

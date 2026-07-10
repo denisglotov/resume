@@ -25,3 +25,5 @@ make check
 The output is written to `output/pdf/denis-glotov-resume.pdf`.
 
 The PDF generator uses standard PDF text objects rather than screenshot or image text. The included `make check` target verifies that required resume text is extractable and that no images are embedded.
+
+The build uses repo-local Liberation Sans font files from `assets/fonts/liberation-sans` so CI does not depend on fonts installed on the runner.
