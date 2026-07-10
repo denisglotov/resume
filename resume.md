@@ -65,11 +65,10 @@ Software engineer
 
 Lead software engineer
 
-- Developed and deployed configurable infrastructure to support promotional projects within a high-traffic, distributed Java enterprise system handling 45M+ unique daily visitors.
-- Built backend services utilizing Voldemort and Cassandra NoSQL databases, exposing functionality via RESTful APIs.
-- Automated development workflows and deployment pipelines using Bash and Python scripting to improve reliability and speed.
+- Built promotional-project infrastructure and backend services for a high-traffic Java system serving 45M+ daily users.
+- Integrated Voldemort/Cassandra stores, REST APIs, and Bash/Python automation for development workflows and deployments.
 
-**Skills:** Java, Python, Cassandra, Voldemort, NoSQL.
+**Skills:** Java, Python, Cassandra, Voldemort, Bash.
 
 ### Google Inc., Moscow, Russia | Mar 2006 - Jul 2013
 
