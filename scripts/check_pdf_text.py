@@ -15,7 +15,7 @@ REQUIRED_TEXT = [
     "Neon Labs",
     "Google Inc.",
     "RF Micro Devices",
-    "US Patent application 20130035926",
+    "US Patent 9009021",
 ]
 
 

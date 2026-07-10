@@ -76,7 +76,7 @@ Software engineer
 
 - Contributed 300+ commits to Chrome and Chrome OS, including encrypted user-data cleanup, AddressSanitizer buildbots, boot-time optimization, UI features, and gMock-based tests.
 - Built crash diagnostics automation for Google Toolbar by analyzing, converting, and uploading Microsoft Minidumps to Google Breakpad, and monitored production services on Borg.
-- Designed and implemented the Google Suggest transliteration system, using MapReduce language statistics to rank real-time suggestions across Russian, Greek, Bulgarian, and Arabic; submitted as a US patent application.
+- Designed and implemented the Google Suggest transliteration system, using MapReduce language statistics to rank real-time suggestions across Russian, Greek, Bulgarian, and Arabic; granted as US Patent 9009021.
 - Implemented Google Toolbar platform and product features, including Windows 7/x64 compatibility, low-level stack-walking fixes, COM-based geolocation emulation, and instant metric conversion.
 
 **Skills:** C++ (GCC, Clang, C++11, Address/Thread Sanitizers), Algorithms, MapReduce, gTest, Python, Linux.
@@ -90,20 +90,14 @@ Software engineer
 
 **Skills:** Assembly, C/C++ (MSVC), Windows DDK, Compuware DriverStudio, SoftIce, Windbg, Multithreading.
 
+## Patent
+
+Automatic transliteration of a record in a first language to a word in a second language.
+
+US Patent [9009021](https://patents.google.com/patent/US9009021B2/en), granted Apr 2015.
+
 ## Education
 
 Moscow State University, Russia, 2003
 
 Department of Mechanics and Mathematics. Master of Science (Mathematics).
-
-## Patent
-
-Automatic transliteration of a record in a first language to a word in a second language.
-
-US Patent application [20130035926](https://patents.google.com/patent/US20130035926A1/en), February 2013.
-
-## Interests
-
-- Cryptography, zero-knowledge proofs, functional programming, writing elegant code.
-- System programming, kernel hacking, low-level optimizations, data races.
-- Multithreaded and distributed programming, lock-free synchronization algorithms.
