@@ -37,7 +37,9 @@ CONTENT_WIDTH = PAGE_WIDTH - LEFT_MARGIN - RIGHT_MARGIN
 FOOTER_TEXT = "Denis Glotov - resume - page {page} of {total}"
 LINK_COLOR = "#2563eb"
 
+# Markdown inline link: [label](url).
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+# Markdown bold span: **text**.
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
 MARKDOWN_BULLETS = {1: "\u2022", 2: "\u25e6"}
 
@@ -137,6 +139,8 @@ def parse_markdown(markdown: str) -> list[dict[str, object]]:
         line = raw_line.rstrip()
         stripped = line.strip()
         if not stripped:
+            if blocks and blocks[-1]["type"] == "paragraph":
+                blocks.append({"type": "paragraph_break"})
             continue
 
         if stripped == "<!-- pagebreak -->":
@@ -348,9 +352,15 @@ def job_table(
 def build_story(blocks: Iterable[dict[str, object]]) -> list[object]:
     styles = make_styles()
     story: list[object] = []
+    block_list = list(blocks)
+    index = 0
 
-    for block in blocks:
+    while index < len(block_list):
+        block = block_list[index]
+        index += 1
         block_type = block["type"]
+        if block_type == "paragraph_break":
+            continue
         if block_type == "pagebreak":
             story.append(PageBreak())
             continue
@@ -370,6 +380,18 @@ def build_story(blocks: Iterable[dict[str, object]]) -> list[object]:
                     bulletText=bullet_text,
                 )
             )
+            continue
+
+        if block_type == "paragraph":
+            lines = [inline_markup(str(block["text"]))]
+            while (
+                index < len(block_list)
+                and block_list[index]["type"] == "paragraph"
+            ):
+                lines.append(inline_markup(str(block_list[index]["text"])))
+                index += 1
+            text = "<br/>".join(lines)
+            story.append(Paragraph(text, styles["body"]))
             continue
 
         text = inline_markup(str(block["text"]))
