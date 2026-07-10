@@ -27,6 +27,8 @@ from reportlab.platypus import (
 
 
 PAGE_WIDTH, PAGE_HEIGHT = A4
+REPO_ROOT = Path(__file__).resolve().parents[1]
+VENDORED_FONT_DIR = REPO_ROOT / "assets" / "fonts" / "liberation-sans"
 LEFT_MARGIN = 56.7
 RIGHT_MARGIN = 56.7
 TOP_MARGIN = 53
@@ -42,12 +44,10 @@ MARKDOWN_BULLETS = {1: "\u2022", 2: "\u25e6"}
 
 def register_resume_fonts() -> dict[str, str]:
     font_files = {
-        "regular": Path("/System/Library/Fonts/Supplemental/Arial.ttf"),
-        "bold": Path("/System/Library/Fonts/Supplemental/Arial Bold.ttf"),
-        "italic": Path("/System/Library/Fonts/Supplemental/Arial Italic.ttf"),
-        "bold_italic": Path(
-            "/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf"
-        ),
+        "regular": VENDORED_FONT_DIR / "LiberationSans-Regular.ttf",
+        "bold": VENDORED_FONT_DIR / "LiberationSans-Bold.ttf",
+        "italic": VENDORED_FONT_DIR / "LiberationSans-Italic.ttf",
+        "bold_italic": VENDORED_FONT_DIR / "LiberationSans-BoldItalic.ttf",
     }
     if not all(path.exists() for path in font_files.values()):
         return {
