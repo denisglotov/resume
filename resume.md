@@ -56,16 +56,10 @@ Technical Lead
 
 Software engineer
 
-- Blockchain Proof-of-Concepts, Pilots, and Stress Testing
-  - Developed smart contracts using Solidity, Go, and EVM assembly; conducted security audits and designed full-stack architectures with a focus on backend implementation.
-  - Created stress-testing frameworks and scripts to simulate multi-node P2P environments under various scenarios.
-- IBM Mainframe Code Modernization
-  - Automated the conversion of assembler code to C for legacy IBM Mainframe systems.
-  - Built a z/Architecture assembler debugger to trace I/O behavior of third-party Assembly/COBOL modules dynamically.
-  - Implemented a C library to emulate z/OS APIs on Linux on IBM Z, enabling hybrid compatibility.
-  - Utilized LLVM KLEE to analyze all execution paths in converted C code for validation and test generation.
+- Built blockchain proof-of-concepts and pilots, including Solidity/Go smart contracts, backend architecture, security review, and stress-testing tools for multi-node P2P environments.
+- Modernized legacy IBM Mainframe systems by converting assembler to C, building z/Architecture debugging tools, emulating z/OS APIs on Linux, and using LLVM KLEE for validation.
 
-**Skills:** Assembly, C++, Go, Python, Node.js, Bash, Linux, MongoDB, Solidity, Elliptic curve cryptography.
+**Skills:** Assembly, C++, Go, Python, Solidity, Bash, Linux, LLVM KLEE.
 
 ### Mail.ru group Ok.ru social network, Moscow, Russia | Sep 2013 - Oct 2015
 
