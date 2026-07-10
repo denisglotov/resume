@@ -93,11 +93,9 @@ Software engineer
 ## Patent
 
 Automatic transliteration of a record in a first language to a word in a second language.
-
 US Patent [9009021](https://patents.google.com/patent/US9009021B2/en), granted Apr 2015.
 
 ## Education
 
-Moscow State University, Russia, 2003
-
-Department of Mechanics and Mathematics. Master of Science (Mathematics).
+Moscow State University, Russia, 2003.
+Master of Science in Mathematics, Department of Mechanics and Mathematics.
