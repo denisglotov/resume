@@ -85,9 +85,8 @@ Software engineer
 
 Software engineer
 
-- Developed a complete WiFi network driver stack for the Windows NT platform, including NDIS Miniport, WDM filter, and NDIS protocol drivers.
-- Debugged, profiled, and validated the driver stack by passing Microsoft WHQL certification tests.
-- Contributed to real-time MAC firmware development for an ARM-based 802.11a/b/g PCIe wireless card, focusing on performance and protocol correctness.
+- Developed, debugged, profiled, and WHQL-certified a complete Windows NT WiFi driver stack, including NDIS Miniport, WDM filter, and NDIS protocol drivers.
+- Contributed to real-time MAC firmware for an ARM-based 802.11a/b/g PCIe wireless card, focusing on low-level performance, timing, and protocol correctness.
 
 **Skills:** Assembly, C/C++ (MSVC), Windows DDK, Compuware DriverStudio, SoftIce, Windbg, Multithreading.
 
