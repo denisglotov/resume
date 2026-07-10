@@ -1,6 +1,6 @@
 # Denis Glotov
 
-Senior Software Engineer - Riga, Latvia
+Senior Software Engineer ∙ Riga, Latvia
 
 [denis@glotov.org](mailto:denis@glotov.org) ∙ [linkedin.com/in/denisglotov](https://linkedin.com/in/denisglotov) ∙ [github.com/denisglotov](https://github.com/denisglotov) ∙ [t.me/denisglotov](https://t.me/denisglotov)
 
