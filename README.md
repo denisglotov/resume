@@ -1,4 +1,6 @@
-# 👋 Denis Glotov resume
+# Denis Glotov resume
+
+📝 [Text resume](resume.md) · 📄 [PDF releases](https://github.com/denisglotov/resume/releases)
 
 ## I am a software engineer
 
@@ -7,7 +9,7 @@
 </a>
 <!-- Photo: Dmitry A. Mottl, cropped by King of Hearts, CC BY-SA 3.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Moscow_State_University_crop.jpg -->
 
-I am a software engineer with a mathematical background and 25 years of experience in distributed systems, blockchain, and cryptography. I enjoy complex problems where correctness, performance, and clean abstractions all matter.
+👋 I am a software engineer with a mathematical background and 25 years of experience in distributed systems, blockchain, and cryptography. I enjoy complex problems where correctness, performance, and clean abstractions all matter.
 
 I am especially interested in zero-knowledge proofs, functional programming, system programming, kernel-level debugging, low-level optimization, data races, and distributed systems. I care about writing elegant code that is practical to run and maintain.
 
