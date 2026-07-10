@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "**"
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    name: Build PDF and Prepare Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build and check PDF
+        run: make check
+
+      - name: Prepare draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG_NAME: ${{ github.ref_name }}
+          PDF_PATH: output/pdf/denis-glotov-resume.pdf
+        run: |
+          safe_tag_name="${TAG_NAME//\//-}"
+          asset_name="denis-glotov-resume-${safe_tag_name}.pdf"
+
+          if gh release view "${TAG_NAME}" >/dev/null 2>&1; then
+            gh release upload "${TAG_NAME}" "${PDF_PATH}#${asset_name}" --clobber
+          else
+            gh release create "${TAG_NAME}" "${PDF_PATH}#${asset_name}" \
+              --draft \
+              --title "Resume ${TAG_NAME}" \
+              --notes "Built resume PDF for ${TAG_NAME}."
+          fi
