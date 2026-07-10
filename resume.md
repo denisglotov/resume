@@ -74,23 +74,10 @@ Lead software engineer
 
 Software engineer
 
-- Chrome / Chrome OS (Open Source Contributor - 300+ Commits)
-  - Automated disk space management by developing a daemon to prune encrypted user data based on usage thresholds.
-  - Maintained Clang AddressSanitizer test buildbots to continuously build Chrome OS images and ran regression tests for memory bug detection.
-  - Optimized Chrome OS boot time (3-5% speed-up) via link-time code reordering, refined the cyg-profiler, and conducted side-by-side performance evaluations.
-  - Implemented UI features using HTML, JavaScript, and Qt, including animated bubbles for volume/brightness, live locale switching, and wrote GMock-based unit tests.
-- Crash Diagnostics & Automation
-  - Built a tool to analyze, convert, and upload Microsoft Minidumps into Google Breakpad format, enabling automated crash tracking for Google Toolbar (IE).
-  - Monitored production Google services deployed on Borg (Google's internal cluster management system).
-- Google Suggest - Transliteration System
-  - Designed and implemented a real-time transliteration engine for the "Did you mean" feature in Google Suggest.
-  - Processed large-scale language statistics using MapReduce to rank and select optimal transliterations at runtime.
-  - Localized and trained the system for Russian, Greek, Bulgarian, and Arabic languages with native speaker support.
-  - Authored and submitted a patent application for the transliteration algorithm and system.
-- Google Toolbar for Internet Explorer
-  - Ensured Windows 7 and 64-bit compatibility; resolved data races, refactored low-level stack walking logic, and implemented x64 thunks.
-  - Developed the "My Location" feature (geolocation API emulation) via a COM-object agent and user-facing UI.
-  - Created instant metric conversion features by leveraging Google Calculator's backend for real-time results.
+- Contributed 300+ commits to Chrome and Chrome OS, including encrypted user-data cleanup, AddressSanitizer buildbots, boot-time optimization, UI features, and gMock-based tests.
+- Built crash diagnostics automation for Google Toolbar by analyzing, converting, and uploading Microsoft Minidumps to Google Breakpad, and monitored production services on Borg.
+- Designed and implemented the Google Suggest transliteration system, using MapReduce language statistics to rank real-time suggestions across Russian, Greek, Bulgarian, and Arabic; submitted as a US patent application.
+- Implemented Google Toolbar platform and product features, including Windows 7/x64 compatibility, low-level stack-walking fixes, COM-based geolocation emulation, and instant metric conversion.
 
 **Skills:** C++ (GCC, Clang, C++11, Address/Thread Sanitizers), Algorithms, MapReduce, gTest, Python, Linux.
 
