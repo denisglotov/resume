@@ -1,4 +1,6 @@
-# 👋 Denis Glotov resume
+# Denis Glotov resume
+
+📝 [Text resume](resume.md) · 📄 [PDF releases](https://github.com/denisglotov/resume/releases)
 
 ## I am a software engineer
 
@@ -7,7 +9,7 @@
 </a>
 <!-- Photo: Dmitry A. Mottl, cropped by King of Hearts, CC BY-SA 3.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Moscow_State_University_crop.jpg -->
 
-I am a software engineer with a mathematical background and 25 years of experience in distributed systems, blockchain, and cryptography. I enjoy complex problems where correctness, performance, and clean abstractions all matter.
+👋 I am a software engineer with a mathematical background and 25 years of experience in distributed systems, blockchain, and cryptography. I enjoy complex problems where correctness, performance, and clean abstractions all matter.
 
 I am especially interested in zero-knowledge proofs, functional programming, system programming, kernel-level debugging, low-level optimization, data races, and distributed systems. I care about writing elegant code that is practical to run and maintain.
 
@@ -27,3 +29,5 @@ The output is written to `output/pdf/denis-glotov-resume.pdf`.
 The PDF generator uses standard PDF text objects rather than screenshot or image text. The included `make check` target verifies that required resume text is extractable and that no images are embedded.
 
 The build uses repo-local Liberation Sans font files from `assets/fonts/liberation-sans` so CI does not depend on fonts installed on the runner.
+
+Pushing any tag runs the release workflow, which builds and checks the PDF, creates a draft GitHub release, and attaches the generated resume PDF as a release asset.
